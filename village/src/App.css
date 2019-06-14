@@ -1,3 +1,18 @@
 .App {
   text-align: center;
 }
+
+.navBar {
+  display: flex;
+  justify-content: space-evenly;
+  width: 20%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 0;
+}
