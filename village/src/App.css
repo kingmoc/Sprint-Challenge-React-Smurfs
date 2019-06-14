@@ -16,3 +16,53 @@ a {
 ul {
   padding-left: 0;
 }
+
+.Smurf {
+  border: 10px solid #d4050bdb;
+  width: 40%;
+  margin: 20px auto;
+  color: #ffffff;
+  font-size: 30px;
+  background: #027ac6c2;
+  font-family: cursive;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: monospace;
+}
+
+button {
+  background-color: #c7d0d5b8;
+  border: none;
+  color: #0a0a0adb;
+  font-family: fantasy;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.SmurfForm {
+  width: 41%;
+  margin: 0 auto;
+  border: 10px solid #9E9E9E;
+  padding: 20px;
+  background: #027ac6c2;
+}
+
+.form-info {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 20px;
+  font-size: 30px;
+  margin: 16px 0;
+  color: #cc0309;
+}

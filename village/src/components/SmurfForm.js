@@ -22,6 +22,7 @@ class SmurfForm extends Component {
       .then(res => {
         console.log(res)
         this.props.updateState(res.data)
+        this.props.history.push('/')
       })
       .catch((err) => {
 				console.log(err)
@@ -42,7 +43,7 @@ class SmurfForm extends Component {
   render() {
     return (
       <div className="SmurfForm">
-        <form onSubmit={this.addSmurf}>
+        <form className = "form-info" onSubmit={this.addSmurf}>
           <input
             onChange={this.handleInputChange}
             placeholder="name"
@@ -61,7 +62,7 @@ class SmurfForm extends Component {
             value={this.state.height}
             name="height"
           />
-          <button type="submit">Add to the village</button>
+          <button> Add to the village </button>
         </form>
       </div>
     );
